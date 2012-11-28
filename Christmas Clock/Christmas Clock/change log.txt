@@ -1,0 +1,29 @@
+Change Log:
+Version 2.0.1.1 (2.0) (12/24/2011)
+• NEW: added the ability to stop a playing song (the Play a Song button changes to the Stop button)
+• NEW: added Dock to Corner button
+• NEW: everything but the time will be hidden when the window loses focus
+• NEW: added the option to open the program in the same location it was in when it closed
+• NEW: added songs "Frost" and "Winter Breeze" by 15th Dimension, bringing the number of songs to 10
+• NEW: added the name of the song playing
+• Fixed: Apply button is disabled when nothing has changed
+• Fixed: got rid of the black border around the textbox that displays the time that appears after the window loses focus when that control was the last item to have focus in the window
+• Fixed (I think): Windows Media Player being stupid (re-runs the code)
+• Removed: main window doesn't show up in the taskbar
+• Misc: moved On Top option to the Options window
+• Misc: reorganized the Options window
+
+Version 1.2 (12/19/2010)
+• NEW: added clock recalibrate button
+• Fixed: fixed a bug preventing the clock from automatically recalibrating
+
+Version 1.1 (12/14/2010)
+• NEW: smaller, better design
+• NEW: will not play the same song twice in a row
+• NEW: added the option of switching between 12 and 24 hour clocks
+• NEW: added the "Play a Song" button so you can play a random song anytime
+• NEW: added color presets so you can easily switch to some common color combinations
+• Fixed: a bug regarding the clock displaying AM when it should display PM when the clock increments an hour
+
+Version 1.0 (12/4/2010)
+• Initial release

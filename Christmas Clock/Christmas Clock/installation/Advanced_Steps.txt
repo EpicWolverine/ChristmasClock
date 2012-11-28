@@ -1,0 +1,15 @@
++---------------------------------------------------------------------------+
+|              Advanced Steps for Installing Christmas Clock                |
+| Follow these steps if Christmas_Clock_Installer.bat doesn't work for you. |
++---------------------------------------------------------------------------+
+
+
+1. Install Microsoft .NET Framework Client Profile if you do not already have it. 
+   It is included on here as “dotNetFx40_Client_x86_x64.exe”. If you aren't sure 
+   if you have it or not, run it anyways.
+2. Copy the "Christmas Clock" folder to "C:\" (or were ever you want), overwriteing 
+   any older version of the program (if it exists).
+3. Open up the "Christmas Clock" folder that you copied.
+4. Right click "Christmas Clock.exe".
+5. Select "Send to" > "Desktop (create shortcut)".
+6. Enjoy!
