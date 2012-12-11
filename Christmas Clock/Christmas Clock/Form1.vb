@@ -1,4 +1,5 @@
 ﻿Imports System.Random
+Imports System.IO
 
 Public Class Form1
     Public Second, Minute, Hour, Hour24 As Byte
@@ -8,7 +9,7 @@ Public Class Form1
     Dim ResourceFilePath As String
     Dim SongGoneOff As Boolean = True
     Dim SkipNumber As Byte = 0
-    Dim SongTimeLeft As Integer = 0
+    'Dim SongTimeLeft As Integer = 0
     Public PlayASongVisible As Boolean
     Public SaveLocation As Boolean
     'Public AutoFocusEnabled As Boolean
@@ -59,7 +60,7 @@ Public Class Form1
         'Warm up Windows Media Player
         FilePath()
         ' Specify the mp3 file
-        AxWindowsMediaPlayer1.URL = ResourceFilePath & "\test.mp3"
+        AxWindowsMediaPlayer1.URL = ResourceFilePath & "\test.wav"
 
         GotSystemTime = False
         Timer1.Start()
@@ -106,7 +107,7 @@ Public Class Form1
             SongGoneOff = False
         ElseIf Button4.Text = "Stop" Then
             AxWindowsMediaPlayer1.Ctlcontrols.stop()
-            SongTimeLeft = 0
+            'SongTimeLeft = 0
             Button4.Text = "Play a Song"
             Label1.Visible = False
             ' If Options.CheckBox1.Checked = True Then
@@ -272,19 +273,19 @@ Public Class Form1
             SongGoneOff = True
             Label1.Visible = True
         End If
-        If SongTimeLeft = 0 Then
-            Button4.Text = "Play a Song"
-            ' If FormGotFocus = True Then
-            ' Button4.Visible = True
-            ' Else
-            ' Button4.Visible = False
-            ' End If
-            Label1.Visible = False
-        Else
-            Button4.Text = "Stop"
-            SongTimeLeft -= 1
-            Label1.Visible = True
-        End If
+        'If SongTimeLeft = 0 Then
+        '    Button4.Text = "Play a Song"
+        '    ' If FormGotFocus = True Then
+        '    ' Button4.Visible = True
+        '    ' Else
+        '    ' Button4.Visible = False
+        '    ' End If
+        '    Label1.Visible = False
+        'Else
+        '    Button4.Text = "Stop"
+        '    'SongTimeLeft -= 1
+        '    Label1.Visible = True
+        'End If
         If Second < My.Computer.Clock.LocalTime.Second Or Second > My.Computer.Clock.LocalTime.Second Then
             Second = My.Computer.Clock.LocalTime.Second.ToString
             Minute = My.Computer.Clock.LocalTime.Minute.ToString
@@ -407,80 +408,43 @@ Public Class Form1
         End If
     End Sub
 
+    Private Sub AxWindowsMediaPlayer1_PlayStateChange(sender As Object, e As AxWMPLib._WMPOCXEvents_PlayStateChangeEvent) Handles AxWindowsMediaPlayer1.PlayStateChange
+        If e.newState = 8 Then
+            Button4.Text = "Play a Song"
+            Label1.Visible = False
+        End If
+    End Sub
+
     Sub Song()
         Dim x As Integer
-Start:  'for restarting the sub
-        Try
-            x = rand(Now.Millisecond, 11) 'generate a pseudorandom number between 1 and the second parameter-1 (ex. between 1 and 10, you would put 11)
-            If SkipNumber <> x Then 'is it the same song as last time? If it isn't, play the corresponding song, otherwise restart from the beginning
-                If x = 1 Then
-                    FilePath()
-                    ' Specify the mp3 file
-                    AxWindowsMediaPlayer1.URL = ResourceFilePath & "\Carol of the Bells.mp3"
-                    SongTimeLeft = 35
-                    Label1.Text = "Carol of the Bells"
-                ElseIf x = 2 Then
-                    FilePath()
-                    ' Specify the mp3 file
-                    AxWindowsMediaPlayer1.URL = ResourceFilePath & "\Joy to the World.mp3"
-                    SongTimeLeft = 62
-                    Label1.Text = "Joy to the World"
-                ElseIf x = 3 Then
-                    FilePath()
-                    ' Specify the mp3 file
-                    AxWindowsMediaPlayer1.URL = ResourceFilePath & "\O Christmas Tree.mp3"
-                    SongTimeLeft = 40
-                    Label1.Text = "O Christmas Tree"
-                ElseIf x = 4 Then
-                    FilePath()
-                    ' Specify the mp3 file
-                    AxWindowsMediaPlayer1.URL = ResourceFilePath & "\What Child is This.mp3"
-                    SongTimeLeft = 19
-                    Label1.Text = "What Child is This"
-                ElseIf x = 5 Then
-                    FilePath()
-                    ' Specify the mp3 file
-                    AxWindowsMediaPlayer1.URL = ResourceFilePath & "\Jingle Bells.mp3"
-                    SongTimeLeft = 46
-                    Label1.Text = "Jingle Bells"
-                ElseIf x = 6 Then
-                    FilePath()
-                    ' Specify the mp3 file
-                    AxWindowsMediaPlayer1.URL = ResourceFilePath & "\Silent Night.mp3"
-                    SongTimeLeft = 31
-                    Label1.Text = "Silent Night"
-                ElseIf x = 7 Then
-                    FilePath()
-                    ' Specify the mp3 file
-                    AxWindowsMediaPlayer1.URL = ResourceFilePath & "\The First Noel.mp3"
-                    SongTimeLeft = 13
-                    Label1.Text = "The First Noel"
-                ElseIf x = 8 Then
-                    FilePath()
-                    ' Specify the mp3 file
-                    AxWindowsMediaPlayer1.URL = ResourceFilePath & "\Dance Of The Sugar Plum Fairies (Short).mp3"
-                    SongTimeLeft = 63
-                    Label1.Text = "Dance Of The Sugar Plum Fairies"
-                ElseIf x = 9 Then
-                    FilePath()
-                    ' Specify the mp3 file
-                    AxWindowsMediaPlayer1.URL = ResourceFilePath & "\Frost.mp3"
-                    SongTimeLeft = 356
-                    Label1.Text = "Frost"
-                ElseIf x = 10 Then
-                    FilePath()
-                    ' Specify the mp3 file
-                    AxWindowsMediaPlayer1.URL = ResourceFilePath & "\Winter Breeze.mp3"
-                    SongTimeLeft = 306
-                    Label1.Text = "Winter Breeze"
-                End If
-                SkipNumber = x 'set as the last song played
-            Else
-                GoTo Start
-            End If
-        Catch WMPScrewedUp As Exception 'Do WMP deside to crap out on me? Try again.
-            GoTo Start
-        End Try
+        Dim worked As Boolean
+
+        Do Until worked = True
+            Try
+                FilePath()
+                Dim strFileSize As String = ""
+                Dim di As New IO.DirectoryInfo(ResourceFilePath)
+                Dim aryFi As IO.FileInfo() = di.GetFiles("*.mp3")
+                'Dim fi As IO.FileInfo
+                x = rand(Now.Millisecond, aryFi.GetLength(0).ToString()) 'generate a pseudorandom number between 1 and the second parameter-1 (ex. between 1 and 10, you would put 11)
+
+                'If SkipNumber <> x Then 'is it the same song as last time? If it isn't, play the corresponding song, otherwise restart from the beginning
+                Dim s As System.Text.StringBuilder
+                s = New System.Text.StringBuilder(aryFi(x).Name)
+                s.Replace(".mp3", "") 'get rid of .mp3
+
+                AxWindowsMediaPlayer1.URL = aryFi(x).FullName
+                'SongTimeLeft = 60
+                Label1.Text = s.ToString
+
+                Button4.Text = "Stop"
+                Label1.Visible = True
+
+                worked = True
+            Catch WMPScrewedUp As Exception 'Did WMP deside to crap out on me? Try again.
+                worked = False
+            End Try
+        Loop
     End Sub
 
     Sub FormFocused() Handles Me.GotFocus, Button1.GotFocus, Button2.GotFocus, Button3.GotFocus, Button4.GotFocus
