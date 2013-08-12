@@ -1,4 +1,9 @@
 Change Log:
+Version 3.0 (12/23/2012)
+• NEW: Added many new songs and removed most of the old ones
+• NEW: Songs are no longer hard-coded into the program, but rather simply picks a random .mp3 file from the Resources folder. This means that you can now add and remove songs to your likeing, as long as they are MP3s.
+• Fixed: window retaining the window border on startup
+
 Version 2.0.1.1 (2.0) (12/24/2011)
 • NEW: added the ability to stop a playing song (the Play a Song button changes to the Stop button)
 • NEW: added Dock to Corner button

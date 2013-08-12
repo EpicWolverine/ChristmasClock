@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Carol_of_the_Bells" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Carol of the Bells.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="Silent_Night" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Silent Night.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -136,9 +133,6 @@
   <data name="Dance_Of_The_Sugar_Plum_Fairies__Short_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dance Of The Sugar Plum Fairies (Short).mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="O_Christmas_Tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\O Christmas Tree.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="c_mas_tree_with_clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c-mas tree with clock.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,19 +142,145 @@
   <data name="cmas_tree_with_clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c-mas tree with clock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Jingle_Bells" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Jingle Bells.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="test" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\test.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="to_corner_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\to corner small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Joy_to_the_World" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Joy to the World.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="to_corner_small_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\to corner small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Adeste_Fideles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Adeste Fideles.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Angels_Medley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Angels Medley.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Angels_We_Have_Heard_On_High" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Angels We Have Heard On High.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Angels_We_Have_Heard_on_High__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Angels We Have Heard on High (2).mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Away_in_a_Manger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Away in a Manger.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A_Blessed_Winter_Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A Blessed Winter Home.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Celebration_of_Life" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Celebration of Life.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Come_Thou_Long_Expected_Jesus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Come Thou Long Expected Jesus.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Coventry_Carol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coventry Carol.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c_mas_tree_with_clock1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c-mas tree with clock.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c_mas_tree_with_clock2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c-mas tree with clock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dance_of_the_Reed_Flutes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dance of the Reed Flutes.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dance_Of_The_Sugar_Plum_Fairies__Short_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dance Of The Sugar Plum Fairies (Short).mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Deck_the_Halls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deck the Halls.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Drive_the_Cold_Winter_Away" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Drive the Cold Winter Away.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Entre_le_boeuf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Entre le boeuf.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="From_Heaven_Above_to_Earth_I_Come" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\From Heaven Above to Earth I Come.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Frost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frost.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gabriel_from_Heven_King" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gabriel from Heven King.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gifts_for_the_Country_King" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gifts for the Country King.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="God_Rest_Ye_Merry_Gentlemen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\God Rest Ye Merry Gentlemen.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Huron_Carol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Huron Carol.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InitInfo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InitInfo.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="I_Wish_I_Could_Be_There_for_Christmas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\I Wish I Could Be There for Christmas.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="I_Wonder_as_I_Wander" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\I Wonder as I Wander.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="O_Come_Emmanuel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\O Come Emmanuel.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="O_Little_Town_of_Bethlehem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\O Little Town of Bethlehem.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="O_Man__Such_A_Sight_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\O Man, Such A Sight!.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="O_Tannenbaum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\O Tannenbaum.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Puer_Natus_in_Bethlehem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Puer Natus in Bethlehem.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Silent_Night1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Silent Night.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="swap1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sweeter_the_Bells_Never_Sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sweeter the Bells Never Sound.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="test" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="The_First_Noel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The First Noel.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="The_First_Noell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The First Noell.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="The_First_Snow_of_Winter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The First Snow of Winter.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="The_Holly_and_The_Ivy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Holly and The Ivy.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="The_Wintry_Mind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Wintry Mind.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="to_corner_small1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\to corner small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="to_corner_small2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\to corner small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="We_Three_Kings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\We Three Kings.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="We_Wish_You_a_Merry_Christmas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\We Wish You a Merry Christmas.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="What_Child_is_This1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\What Child is This.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Winter_Breeze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Winter Breeze.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
