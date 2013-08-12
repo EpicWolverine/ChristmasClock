@@ -30,7 +30,7 @@
     <PublisherName>Brendan Ferracciolo</PublisherName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>2.0.0.0</ApplicationVersion>
+    <ApplicationVersion>3.0.0.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -257,7 +257,40 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="c-mas tree with clock new.ico" />
+    <None Include="Resources\A Blessed Winter Home.mp3" />
+    <None Include="Resources\Adeste Fideles.mp3" />
+    <None Include="Resources\Angels Medley.mp3" />
+    <None Include="Resources\Angels We Have Heard on High %282%29.mp3" />
+    <None Include="Resources\Angels We Have Heard On High.mp3" />
+    <None Include="Resources\Away in a Manger.mp3" />
+    <None Include="Resources\Celebration of Life.mp3" />
+    <None Include="Resources\Come Thou Long Expected Jesus.mp3" />
+    <None Include="Resources\Coventry Carol.mp3" />
+    <None Include="Resources\Dance of the Reed Flutes.mp3" />
+    <None Include="Resources\Deck the Halls.mp3" />
+    <None Include="Resources\Drive the Cold Winter Away.mp3" />
+    <None Include="Resources\Entre le boeuf.mp3" />
+    <None Include="Resources\From Heaven Above to Earth I Come.mp3" />
     <Content Include="Resources\Frost.mp3" />
+    <None Include="Resources\Gabriel from Heven King.mp3" />
+    <None Include="Resources\Gifts for the Country King.mp3" />
+    <None Include="Resources\God Rest Ye Merry Gentlemen.mp3" />
+    <None Include="Resources\Huron Carol.mp3" />
+    <None Include="Resources\I Wish I Could Be There for Christmas.mp3" />
+    <None Include="Resources\I Wonder as I Wander.mp3" />
+    <None Include="Resources\O Come Emmanuel.mp3" />
+    <None Include="Resources\O Little Town of Bethlehem.mp3" />
+    <None Include="Resources\O Man, Such A Sight!.mp3" />
+    <None Include="Resources\O Tannenbaum.mp3" />
+    <None Include="Resources\Puer Natus in Bethlehem.mp3" />
+    <None Include="Resources\Sweeter the Bells Never Sound.mp3" />
+    <None Include="Resources\test.wav" />
+    <None Include="Resources\The First Noell.mp3" />
+    <None Include="Resources\The First Snow of Winter.mp3" />
+    <None Include="Resources\The Holly and The Ivy.mp3" />
+    <None Include="Resources\The Wintry Mind.mp3" />
+    <None Include="Resources\We Three Kings.mp3" />
+    <None Include="Resources\We Wish You a Merry Christmas.mp3" />
     <Content Include="Resources\Winter Breeze.mp3" />
     <None Include="Resources\to corner small.png" />
     <None Include="Resources\to corner small.jpg" />
